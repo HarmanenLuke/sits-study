@@ -1,0 +1,9 @@
+---
+title: "Notes for the R package 'sits'"
+author: "Jussi Harmanen"
+date: today
+---
+
+## TBD
+
+Lorem ipsum.
