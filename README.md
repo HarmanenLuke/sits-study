@@ -2,6 +2,10 @@
 
 This repository contains code examples from the e-book [Satellite Image Time Series Analysis on Earth Observation Data Cubes](https://e-sensing.github.io/sitsbook/), which is meant to illustrate how the R package [sits](https://cran.r-project.org/web/packages/sits/index.html) can be used in Earth Observation data analysis.
 
+## Setup
+
+This repository uses reproducible R environments ([renv](https://rstudio.github.io/renv/)). In case `renv::restore()` fails to install dependencies, try [manually installing](https://e-sensing.github.io/sitsbook/setup.html#installing-the-r-sitsdata-package) the dev dependecy `sitsdata` first. Note that RTools is required.
+
 # References
 
 - Articles
