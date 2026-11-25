@@ -1,0 +1,39 @@
+---
+title: "Introduction to the R package 'sits'"
+author: "Jussi Harmanen"
+date: today
+---
+
+## Introduction
+
+This document follows the steps of the [intro section](https://e-sensing.github.io/sitsbook/intro_quicktour.html) of sits e-book.
+
+
+```{r initialize}
+base::rm(list = base::ls())
+base::invisible(base::gc())
+
+# Location for R functions
+code_path <- "R"
+
+base::invisible(
+  base::lapply(
+    base::list.files(code_path, full.names = TRUE),
+    source
+  )
+)
+
+# Location for data
+data_path <- "data"
+
+if (!base::dir.exists(data_path)) {
+  base::dir.create(data_path)
+}
+```
+
+```{r}
+samples_matogrosso_mod13q1 <- get_data(
+  "samples_matogrosso_mod13q1.parquet",
+  data_path
+)
+```
