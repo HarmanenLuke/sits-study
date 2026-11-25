@@ -7,3 +7,9 @@ date: today
 ## TBD
 
 Lorem ipsum.
+
+
+```{r}
+library(sits)
+library(sitsdata)
+```
